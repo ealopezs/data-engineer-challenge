@@ -48,7 +48,7 @@ historical data until current point in time (near real time) for different
 sensors.
 
  #### Anwser:
- The purpose of the "iot_kafka_producer" service is to receive MQTT IoT messages as they arrive and send them to a Kafka stream (asynchronously for greater efficiency and performance), so that the data can be consumed near real time. For this, another service would be needed that performs this streaming processing and makes it available to BI specialists according to the required architecture (either a hot storage for pre-processing and/or directly in an analytical warehouse).
+ The purpose of the "iot_kafka_producer" service is to receive MQTT IoT messages as they arrive and send them to a Kafka stream (asynchronously for greater efficiency and performance), so that the data can be consumed near real time. For this, another service would be needed that performs this streaming processing and makes it available to BI specialists according to the required architecture (either a hot storage for pre-processing and/or directly in an analytical warehouse). But, it's not working properly yet :( It'seem Kafka start working well but but there must be a network problem with the "kafka producer" service that I have not been able to solve because it cannot connect to the server to be able to publish messages.
 
 #### Step 3 (optional, if there is still time after Part Two):
 
