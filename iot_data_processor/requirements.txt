@@ -1,0 +1,3 @@
+paho-mqtt
+pydantic==1.*
+boto3

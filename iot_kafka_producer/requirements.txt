@@ -1,0 +1,4 @@
+paho-mqtt
+kafka-python
+pydantic[dotenv]
+pydantic==1.*
