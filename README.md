@@ -132,25 +132,6 @@ In this point Azure Pure View could be an alied for:
     - It's important to establish a constant feedback loops with data consumers to understand their needs to improve the data products and service.
     - Its a must set a channel (like a Portal) to share a well-defined data catalog, provide documentation, data schemas, data dictionaries, and sample queries, data consumption guidelines, access controls, etc, to help consumers understand the available data and its structure.
 
+6. Arqchitecture Reference:
 
-### Evaluation criteria
-
-What we're looking for:
-
-* We want to see what you can do, not what you can't do
-* The ability to determine the actual problem area and find a suitable solution
-* Pragmatic solution, scratch features when necessary, time is short!
-* Document your approach, your decisions, and your general notes directly in
-  your code or in a readme file (for Part One)
-
-## Preparations for the interview
-
-* open your project in your IDE
-* have your environment running
-* be prepared to present your approach for 5-10 min (no Slides!)
-* be prepared to answer a few questions after your presentation
-
-# TODOs:
-
-* improve instructions above
-* let challenge be challenged by internals
+![arqchitecture1](./images/arqchitecture1.jpg)
